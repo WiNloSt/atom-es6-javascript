@@ -6,11 +6,11 @@ module.exports =
 
   activate: (state) ->
     atom.commands.add 'atom-text-editor',
-      'es6-javascript:end-line': => @endLine(';', false)
+      'es6-javascript:end-line-semicolon': => @endLine(';', false)
     atom.commands.add 'atom-text-editor',
       'es6-javascript:end-line-comma': => @endLine(',', false)
     atom.commands.add 'atom-text-editor',
-      'es6-javascript:end-new-line': => @endLine('', true)
+      'es6-javascript:end-line': => @endLine('', false)
     atom.commands.add 'atom-text-editor',
       'es6-javascript:wrap-block': => @wrapBlock()
 

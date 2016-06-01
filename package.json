@@ -5,9 +5,9 @@
   "description": "A collection of commands and ES6 focused snippets for optimizing modern Javascript development productivity.",
   "activationCommands": {
     "atom-text-editor": [
-      "es6-javascript:end-line",
+      "es6-javascript:end-line-semicolon",
       "es6-javascript:end-line-comma",
-      "es6-javascript:end-new-line",
+      "es6-javascript:end-line",
       "es6-javascript:wrap-block"
     ]
   },

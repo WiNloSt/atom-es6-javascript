@@ -15,14 +15,14 @@ If you need double quotes please downgrade `apm install es6-javascript@0.7.0`
 
 Use the following keymaps to speed up your development. You can quickly terminate lines with semicolons or manipulate blocks of code with ease.
 
-#### End Line `CTRL-;`
+#### End Line with a semicolon `CTRL-;`
 Terminates the current line with a semicolon.
 
 #### End Line with a comma `CTRL-,`
 Terminates the current line with a comma (great for object literals).
 
-#### End New Line `CTRL-ENTER`
-Terminates the current line with a colon or semicolon, followed with a new line. A comma is inserted when the cursor is inside an object literal, otherwise a semicolon is inserted.
+#### End Line `CTRL-ENTER`
+Terminates the current line with a colon or semicolon. A comma is inserted when the cursor is inside an object literal, otherwise a semicolon is inserted.
 
 #### Easy Blocks `CTRL-B`
 Creates a statement block `{ ... }` with the selected text placed inside and properly indented. If the selection is already wrapped with a block, the block is removed and its content is unindented.
