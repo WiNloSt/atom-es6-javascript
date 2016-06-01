@@ -1,7 +1,12 @@
 # es6-javascript
 A collection of commands and ES6 focused snippets for optimizing modern Javascript development productivity. It aims to be compliant with [AirBnB's mostly reasonable approach to Javascript](https://github.com/airbnb/javascript).
 
-*Note: this is a fork of [turbo-javascript](extrabacon/atom-turbo-javascript) that uses arrow functions by default and adds a few more snippets for chai and classes for convenience.*
+## Note
+this is a fork of
+- [es6-javascript](hharnisc/atom-es6-javascript) which is a fork of
+- [turbo-javascript](extrabacon/atom-turbo-javascript)
+
+The only change is that End New Line become just End Line providing smart ending (ending with either a comma, or semicolon depending on context) without including a new line. Just my preference, though.
 
 ## Changelog
 
